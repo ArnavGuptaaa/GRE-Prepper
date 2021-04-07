@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# GRE Prepper
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Chrome extension for displaying over 1.2k high frequency GRE words built with reactJS.
 
 ## Available Scripts
 
