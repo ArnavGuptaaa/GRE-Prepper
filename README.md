@@ -1,5 +1,9 @@
 # GRE Prepper
 
+<p>
+  <img height=350px" src="preview.gif">
+</p>
+
 A Chrome extension for displaying over 1.2k high frequency GRE words built with reactJS.
 
 ## Available Scripts
