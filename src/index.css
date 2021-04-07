@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-width: 350px;
+  min-height: 400px;
+  background-color: #121212;
+}
+
+.app-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1f1f1f;
+}
+
+.title h1 {
+  font-size: 2rem;
+  color: #e1e1e1;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 95%;
+  height: 150px;
+  background-color: #1e1e1e;
+  margin: 20px 10px;
+  border-radius: 15px;
+  /* padding: 25px 0; */
+}
+
+#word {
+  font-size: 4rem;
+  color: #e1e1e1;
+}
+
+#meaning {
+  font-size: 1.7rem;
+  color: #606060;
+}
+
+.lookup-container {
+  width: 100%;
+}
+
+.lookup-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.lookup-list li {
+  background-color: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.lookup-list li:hover {
+  animation: pop 0.4s ease forwards;
+}
+
+.lookup-list li a {
+  text-decoration: none;
+  color: #e1e1e1;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+#button {
+  cursor: pointer;
+  background-color: #1e1e1e;
+  color: #e1e1e1;
+  border: 1px solid #1e1e1e;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 3rem;
+  margin: 20px;
+}
+
+#button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#button:hover {
+  animation: pop 0.4s ease forwards;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.footer-div {
+  color: #e1e1e1;
+  width: 100%;
+  padding: 5px;
+}
+
+.footer-div p {
+  font-size: 1.5rem;
+}
+
+.footer-div p a {
+  text-decoration: none;
+  color: #bb86fc;
+}

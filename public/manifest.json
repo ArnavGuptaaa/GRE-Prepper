@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "GRE Prepper",
+  "author": "Nav",
+  "version": "1.0.0",
+  "description": "GRE Prepper popup built with reactJS",
+  "browser_action": {
+    "default_title": "GRE Prepper",
+    "default_icon": "favicon.png",
+    "default_popup": "index.html"
+},
+  "permissions": []
+}
